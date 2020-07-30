@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up</title>
+	<style type="text/css">
+		table{
+			border: solid black;
+			width: 70%;
+			height: 70%;
+			padding: 50px;
+			margin: 30px;
+		}
+		body{
+			text-align: center;
+		}
+		body >h1{
+			color: skyblue;
+		}
+		h3{
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<h1>Sign up</h1>
+	<form action="sign_up.php" method="post">
+		<div id="content">
+			<h3>Username</h3>
+			<span><input type="text" name="name" size="15"></span>
+		</div>
+		<div id="content">
+			<h3>ID</h3>
+			<span><input type="text" name="ID" size="18"></span>
+		</div>
+		<div id="content">
+			<h3>Password</h3>
+			<span><input type="Password" name="npwd" size="18"></span>
+		</div>
+		<div id="content">
+			<h3>Email</h3>
+			<span><input type="email" name="email" size="18"></span>
+		</div>
+		<div id="content">
+			<h3>Birthday</h3>
+			<span><input type="date" name="b-day"></span>
+		</div>
+		<div id="content">
+			<h3>Gender</h3>
+			<span><input type="radio" name="male">male</span>
+			<span><input type="radio" name="female">female</span>
+		</div>
+		<br>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
